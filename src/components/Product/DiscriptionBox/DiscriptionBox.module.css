@@ -1,0 +1,26 @@
+.Describtion_review {
+  margin-top: 5vw;
+}
+
+.Description {
+  display: inline;
+  background: #FFFFFF;
+  border: 1px solid #D0D0D0;
+  border-radius: 0px;
+  padding: 12px;
+}
+
+.Reviews {
+  padding: 12px;
+  display: inline;
+  background: #FFFFFF;
+  border: 1px solid #D0D0D0;
+  background: #FBFBFB;
+  border-radius: 0px;
+}
+
+.Describtionandreview_titles {
+  margin-top: 0.7vw;
+  border: 1px solid #D0D0D0;
+  padding: 2vw;
+}/*# sourceMappingURL=DiscriptionBox.module.css.map */

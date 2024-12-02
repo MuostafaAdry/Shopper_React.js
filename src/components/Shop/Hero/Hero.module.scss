@@ -1,0 +1,55 @@
+.hero{
+    max-height: 100vh ;
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+}
+.hero_img{
+ 
+    width: 100%;
+}
+.img{
+    width: 70%;
+}
+
+.hero_text{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8% !important;
+}
+.hand{
+    display: flex;
+    justify-content: start;
+    align-self: center;
+   
+}
+.hand_icon{
+    width: 100px;
+}
+.hand_title{
+font-size: 70px !important;
+}
+ 
+.latest_collection_btn{
+    margin-top: 1vw;
+    border: none;
+    padding: 10px ;
+    width: 210px;
+    border-radius: 15px;
+    background-color: #ff4141;
+    color: white;
+    font-weight: 500;
+}
+.arrow_icon{
+   width: 18px;
+   margin-left: 5px;
+}
+@media   (width: 768px) {
+    .hero{
+        margin-bottom: 30vw !important;
+     }
+}
+@media ( width: 540px) {
+     .hero{
+        margin-bottom: 50vw !important;
+     }
+}

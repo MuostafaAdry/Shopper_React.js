@@ -1,0 +1,73 @@
+.logo_container{
+    padding: 0vw 0vw 0vw 3vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hr{
+    border: none;
+    width: 80%;
+    height: 2px;
+    background-color: red!important;
+    border-radius: 10px;
+}
+ 
+.logo{
+   width: 50px;
+}
+ 
+ 
+.logo_title{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+   
+}
+.nav_links{
+    text-decoration: none;
+    font-weight: 550;
+    color: black;
+    margin-right: 1vw;
+    margin-top: 1vw;
+}
+ 
+.nav_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vw;
+    gap: 1vw;
+
+}
+.Cart_icon{
+    width: 30px;
+}
+.Login_btn{
+    padding: 7px 10px;
+    width: 100px;
+    border-radius: 15px;
+    border: 1px solid #7a7a7a;
+    background-color: white;
+    font-weight: 550;
+    color: #515151;
+    cursor: pointer;
+    transform: 0.3s ease;
+    text-decoration: none !important;
+    text-align: center;
+}
+ 
+.Login_btn:active{
+    background-color: #f3f3f3;
+}
+.Cart_counter{
+    position: absolute;
+    width: 15px;
+    margin: -18px 0px 0px 145px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 50%;
+    color: white;
+    background-color: red;
+}

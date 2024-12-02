@@ -1,0 +1,35 @@
+.news_main{
+    margin-top: 5vw;
+    padding-top: 5vw;
+    height: 50vh;
+    text-align: center;
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+
+}
+.NewsTitle,.subscribe_title{
+    color: #454545;
+}
+
+.input_btn{
+   margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+._input {
+  outline: none;
+    border-radius: 25px;
+    width: 40%;
+    padding: 1vw;
+    color: #616161;
+    border: 1px solid gray;
+}
+ 
+._btn{
+    width: 200px;
+    padding: 1vw 2vw;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    margin-left: -4vw;
+}

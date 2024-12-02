@@ -1,0 +1,18 @@
+.img_container{
+    width: 100%;
+    overflow: hidden;
+}
+.item_img{
+    width: 100%;
+   cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+.item_img:hover{
+    transform: scale(1);
+}
+.new_price{
+    margin-right: 5px;
+    font-size: larger;
+    font-weight:550;
+}

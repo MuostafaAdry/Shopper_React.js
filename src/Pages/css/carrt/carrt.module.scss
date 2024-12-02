@@ -1,0 +1,212 @@
+/* General table styling */
+.tableContainer {
+    margin: 20px auto;
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    word-wrap: break-word; /* Prevent long text from breaking the layout */
+}
+
+.table th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table td img {
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.removeButton {
+    padding: 8px 12px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.removeButton:hover {
+    background-color: #c0392b;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .table th, .table td {
+        padding: 10px 8px;
+        font-size: 14px;
+    }
+
+    .removeButton {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .table td img {
+        width: 40px; /* Adjust image size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .table th, .table td {
+        font-size: 12px;
+        padding: 8px 5px;
+    }
+
+    .removeButton {
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+
+    .tableContainer {
+        width: 100%;
+    }
+}
+// ==============
+.cart_bottom{
+    margin-top: 5vw; 
+   display: flex;
+   justify-content: space-between;
+    
+}
+.cart_total{
+    margin-right: 5vw;
+}
+.cart_total_details{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.total{
+   
+   display: flex;
+}
+.cart_CHEKOUT{
+   margin: 1vw 0vw ;
+   padding: 10px 15px;
+   border: none;
+   background-color: tomato;
+   color: white;
+   text-align: center;
+  
+}
+
+.promo_code_title{
+    color: #555;
+}
+.promo_code_input{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.input{
+ 
+   padding: 5px 10px;
+   width: 80%;
+   border: none;
+  background-color: #d6d4d4;
+  border-radius: 7px;
+}
+.submit{
+   background-color: black;
+   color: white;
+   font-weight: 500;
+   border-radius: none;
+}
+.submit:hover{
+   border: none;
+   transform: scale(none);
+}
+
+@media (max-width:811px){
+   .cart_bottom{
+       flex-direction: column-reverse;
+   }
+   .promo_code{
+       margin-bottom: 5vw;
+   }
+}
+// ====
+.payment_container {
+    padding: 50px 0;
+    background-color: #f4f7fc;
+  }
+  
+  .payment-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .payment-form .form-control {
+    margin-bottom: 20px;
+  }
+  
+  .payment_btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .payment-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .payment_summary {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-summary h4 {
+    margin-bottom: 20px;
+  }
+  
+  .payment-summary ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .payment-summary ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .payment-summary ul li strong {
+    font-size: 18px;
+    color: #333;
+  }
+  

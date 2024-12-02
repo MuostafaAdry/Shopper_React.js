@@ -1,0 +1,92 @@
+.main {
+  margin-top: 2vw;
+}
+
+.display_left {
+  display: flex;
+}
+
+.img_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.side_img {
+  width: 100px;
+  margin: 0.5vw;
+  cursor: pointer;
+}
+
+.main_img_container {
+  width: 100%;
+}
+
+.main_img_container .main_img {
+  width: 100%;
+}
+
+.product_name {
+  color: #3d3d3d;
+}
+
+.product_price {
+  margin: 1vw 0vw;
+  color: #ff4141;
+  font-size: 24px;
+  font-weight: 650;
+}
+
+.old_price {
+  color: gray;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.sizes {
+  display: flex;
+  gap: 8px;
+  margin: 1vw 0vw;
+}
+
+.size {
+  border: 1px solid #ededed;
+  padding: 5px;
+  background-color: #fdfdfd;
+  border-radius: 4px;
+  font-size: larger;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.addCart_btn {
+  color: white;
+  background-color: #ff4141;
+  padding: 12px 15px;
+  border: none;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 2vw 0vw;
+  cursor: pointer;
+}
+
+.counters {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.btn {
+  color: white;
+  background-color: #ff4141;
+  padding: 3px;
+  border: none;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0.5vw;
+  cursor: pointer;
+}
+
+.Counter_number {
+  margin-top: 5px;
+  font-weight: 550;
+}/*# sourceMappingURL=DisplayProduct.module.css.map */

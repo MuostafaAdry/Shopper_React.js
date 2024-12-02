@@ -1,0 +1,30 @@
+.footer_main {
+  margin: 5vw 0vw;
+  text-align: center;
+}
+
+.footer_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_links, .footer_media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 1vw 0vw;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.footer_icon {
+  cursor: pointer;
+  margin: 0vw 1vw;
+}/*# sourceMappingURL=Footer.module.css.map */

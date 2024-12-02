@@ -1,0 +1,22 @@
+.banner_conyainer{
+   
+    width: 100%;
+}
+.banner_img{
+    width: 100%;
+}
+.title,span{
+    font-weight: 600;
+}
+.index_sort{
+    margin: 1vw 0vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sort_btn{
+    padding: 5px;
+    border: 1px solid #888;
+    border-radius: 15px;
+}
+ 
